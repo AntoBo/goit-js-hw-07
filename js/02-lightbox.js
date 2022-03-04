@@ -6,7 +6,6 @@ galleryEl.insertAdjacentHTML('afterbegin', createGalleryMarkup(galleryItems));
 let lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
   captionDelay: 250,
-  captionPosition: 'outside',
 });
 
 function createGalleryMarkup(gallery) {
